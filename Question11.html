@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            margin-left:10px ;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+       <h2>Input Types</h2>
+        <input type="button" onclick="alert('This page shows all the input types')" value="Click here">
+        <label for="">Name:</label>
+       <input type="text" id="name" name="name">
+       <label for=""> Email:</label>
+       <input type="email" id="email" name="email">
+       <label for="">phone number:</label>
+       <input type="tel" id="phoneno" name="phoneno" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+       <label for=""> time:</label>
+       <input type="time" id="time" name="time">
+       <label for="">month and year:</label>
+       <input type="month" id="month" name="month">
+       <label for="">Date:</label>
+       <input type="date" id="date" name="date">
+       <label for="">date and time:</label>
+       <input type="datetime-local" id="datetime" name="datetime">
+       <label for="">Number:</label>
+       <input type="number" id="num" name="num">
+       <label for="">color:</label>
+        <input type="color" id="color" name="color">
+        <label for="">Search:</label>
+        <input type="search" id="search" name="search">
+        <label for="">url:</label>
+        <input type="url" id="url" name="url"> 
+        <label for="">week:</label>
+        <input type="week" id="week" name="week"> 
+        <label for="">image</label>
+        <input type="image" src="" alt="Submit" width="40" height="40"> 
+        <label for="">Password:</label>
+        <input type="password" id="pwd" name="pwd"><br>
+        <h5>radio type</h5>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="">CSS</label><br>
+        <h5>Full Stack Development</h5>
+        <input type="checkbox" id="front" name="front">
+        <label for=""> Front End</label><br>
+        <input type="checkbox" id="back" name="back">
+        <label for=""> Back End</label><br>
+        <label for=""> file:</label>
+        <input type="file" id="file" name="file">
+        <h4>range</h4>
+        <label for="">Marks:</label>
+        <input type="range" id="marks" name="marks">
+        <input type="hidden" id="someId" name="someId" value="2345"><br>
+        <input type="submit" value="Submit"><br>
+        <input type="reset" value="reset"><br>
+    </form>
+</body>
+</html>

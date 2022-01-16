@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <Style>
+        h2{
+            background-color: red;
+            color: white;
+            margin: 3px;
+            text-align: center;
+        }
+        fieldset{
+          border:3px solid black;
+          width: 25%;
+        }
+     input{
+       border-style:none;
+       border-bottom:2px solid black;
+       font-style: italic;
+       text-align: center;
+       }
+       #fishingzine,#computerzine,#catozine,span,p{
+         font-weight:bolder ;
+       }
+    </Style>
+</head>
+<body>
+  <div>
+    <fieldset>
+    <h2>YES! I Want to subscribe to  <i> Mag-O-Zine</i></h2>
+   <table>
+     <tbody>
+       <tr>
+        <td colspan="3">
+          <input type="text" name="fname" id="fname" ><br>
+          <label for="">First Name</label>
+        </td>
+        <td colspan="3">
+          <input type="text" name="lname" id="lname"><br>
+          <label for="">Last Name</label> 
+         </td>
+       </tr>
+       <tr>
+         <td colspan="6">
+          <input type="text" name="address" id="address" size="59"><br>
+          <label for="">Address</label>
+         </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+          <input type="text" name="city" id="city" size="15"><br>
+          <label for="">City</label> 
+        </td>
+        <td colspan="2">
+          <input type="text" name="state" id="state" size="15"><br>
+          <label for="">State</label> 
+        </td>
+        <td colspan="2">
+          <input type="number" name="zip" id="zip"><br>
+          <label for="">Zip</label> 
+        </td>
+       </tr>
+     </tbody>
+    </table>
+    <span>Subscribe for:</span>
+       <input type="checkbox" id="1year" name="1year">
+       <label for=""><b>1 year ($19.95) </b></label>
+       <input type="checkbox" id="2years" name="2years">
+      <label for=""><b>2 years ($35)</b></label>
+      <p>Send me more information about :</p>
+      <input type="checkbox" id="computerzine" name="computerzine">
+      <label for=""><b>Computer-Zine</b> </label><br>
+      <input type="checkbox" id="fishingzine" name="fishingzine">
+      <label for=""><b>Fishing-zine</label></b><br>
+      <input type="checkbox" id="catozine" name="catozine">
+      <label for=""><b>Cat-O-Zine</b></label>
+   </fieldset>
+  </div>
+</body>
+</html>

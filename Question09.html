@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+        margin-left: 4%;
+        background-color:darkcyan;
+        }
+        input,textarea
+        {
+            width: 20%;
+            background-color:aliceblue
+        }
+        #submit{
+            width: 10%;
+        }
+</style>
+</head>
+<body>
+    <div class ="container">
+        <h3>FORM WITH DEFAULT VALUES</h3>
+          <form action="">
+              <!-- value is used to set the default values -->
+             <label for="">FULL NAME: </label>  <br>
+              <input type="text" name="text" id="text" value="Firstname  Lastname"/> <br><br>
+              <label for="">EMAIL: </label><br>    
+              <input type="email" name="email" id="email" value="abcd@gmail.com"/> <br><br>
+              <label for="">MOBILE NUMBER: </label><br> 
+              <input type="number" name="number" id="number" value=1234567890 /> <br><br>
+              <label for="">COMMENTS: </label> <br>   
+              <textarea  rows="5" cols="20" placeholder="please enter your comments over here"></textarea>  <br>
+             <input type="button" id="submit" value="submit">
+           </form>
+     </div>   
+</body>
+</html>
